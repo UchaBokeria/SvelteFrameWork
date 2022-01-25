@@ -12,7 +12,7 @@ module.exports = {
   },
   
   resolve: {
-    extensions: ['*', '.svelte', '.ts', '.js', '.scss'],
+    extensions: ['*', '.svelte', '.html', '.ts', '.js', '.scss'],
     modules: ['./node_modules'],
   },
   module: {

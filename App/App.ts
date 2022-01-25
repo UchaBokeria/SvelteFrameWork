@@ -1,15 +1,6 @@
-console.log(123);
+export default class App {
+	name = "joajo";
 
-import  "./App.scss";
-
-
-import App from './App.svelte';
-
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
+	Navigate(Route:string) {
 	}
-});
-
-export default app;
+}

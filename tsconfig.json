@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
+	  "experimentalDecorators": true,
       "outDir": "./dist/",
       "noImplicitAny": true,
       "sourceMap": true,
-      "module": "es6",
+      "module": "esnext",
       "target": "es5",
       "allowJs": true,
       "moduleResolution": "node"
